@@ -94,6 +94,9 @@ section {
 
 .wrapper {
     margin-top: .3rem;
+    @include num(100%,
+    4rem);
+    overflow: hidden;
     .conntainer {
         @include num(100%,
         auto);
@@ -106,6 +109,7 @@ section {
             display: flex;
             justify-content: space-between;
             flex-direction: column;
+            margin-left: .1rem;
         }
     }
 }

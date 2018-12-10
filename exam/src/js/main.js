@@ -1,6 +1,7 @@
 require.config({
     baseUrl: "/js/",
     paths: {
-        "jquery": "./libs/jquery"
+        "jquery": "./libs/jquery",
+        "bscroll": "./libs/bscroll"
     }
 })
