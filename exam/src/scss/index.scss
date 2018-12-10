@@ -93,12 +93,13 @@ section {
 }
 
 .wrapper {
-    margin-top: .1rem;
+    margin-top: .3rem;
     .conntainer {
         @include num(100%,
         auto);
         display: flex;
         flex-wrap: wrap;
+        margin-top: .3rem;
         dl {
             @include num(40%,
             auto);
@@ -106,6 +107,43 @@ section {
             justify-content: space-between;
             flex-direction: column;
         }
+    }
+}
+
+.top {
+    @include num(100%,
+    .3rem);
+    background: #ccc;
+    text-align: center;
+    position: fixed;
+    top: -.5rem;
+    img {
+        @include num(.2rem,
+        auto);
+        vertical-align: middle;
+    }
+}
+
+.main {
+    @include num(100%,
+    .3rem);
+    background: #ccc;
+    text-align: center;
+    line-height: .3rem;
+    display: none;
+}
+
+.bottom {
+    @include num(100%,
+    .3rem);
+    background: #ccc;
+    text-align: center;
+    position: fixed;
+    bottom: -.5rem;
+    img {
+        @include num(.2rem,
+        auto);
+        vertical-align: middle;
     }
 }
 
