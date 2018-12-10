@@ -22,6 +22,11 @@ require(["./js/main.js"], function() {
             }
         })
 
+        $(".list span").on("click", function() {
+            $(this).addClass("color").siblings().removeClass("color");
+            let html = "";
+
+        })
         var scroll = new bscroll(".wrapper", {
             probeType: 1
         })
